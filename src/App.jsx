@@ -4,8 +4,6 @@ import data from "./data.json";
 import "./index.css";
 import Album from "./album";
 
-
-
 export const App = () => {
 
   const albums = data.albums.items;
@@ -25,8 +23,6 @@ export const App = () => {
   );
 };
 
-<<<<<<< HEAD
-=======
 // Album component to display album details
 const Album = ({ album }) => {
   return (
@@ -42,6 +38,5 @@ const Album = ({ album }) => {
   );
 };
 
->>>>>>> 9d4bff3 (added components and styling)
 export default App;
 
